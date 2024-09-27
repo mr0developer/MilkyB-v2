@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilkyB biscuits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MilkyB</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="order.html">Order</a>
+            <a href="product.html">Product</a>
+            <a href="enquire.html">Enquire</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <img src="assets/asset21.jpg" class="mount2">
+        <img src="assets/mount1.png" class="mount1">
+        <img src="assets/bush2.png" class="bush2">
+
+        <h1 class="title">Order</h1>
+
+        <img src="assets/bush1.png" class="bush1">
+        <img src="assets/leaf2.png" class="leaf2">
+        <img src="assets/leaf1.png" class="leaf1">
+    </section>
+
+    <section class="about">
+            <h1 class="title">Order Biscuits</h1>
+            <form action="" id="order-form">
+              <label><strong>Biscuit Type:</strong></label>
+              <div>
+                <input type="radio" id="classic" name="biscuit-type" value="classic">
+                <label for="classic">Classic</label>
+              </div>
+              <div>
+                <input type="radio" id="chocolate-chip" name="biscuit-type" value="chocolate-chip">
+                <label for="chocolate-chip">Chocolate Chip</label>
+              </div>
+              <div>
+                <input type="radio" id="oatmeal-raisin" name="biscuit-type" value="oatmeal-raisin">
+                <label for="oatmeal-raisin">Oatmeal Raisin</label>
+              </div>
+              <hr>
+              <br><br><br>
+              <label><strong>Toppings:</strong></label>
+              <div>
+                <input type="checkbox" id="nuts" name="toppings" value="nuts">
+                <label for="nuts">Nuts</label>
+              </div>
+              <div>
+                <input type="checkbox" id="sprinkles" name="toppings" value="sprinkles">
+                <label for="sprinkles">Sprinkles</label>
+              </div>
+              <div>
+                <input type="checkbox" id="chocolate-drizzle" name="toppings" value="chocolate-drizzle">
+                <label for="chocolate-drizzle">Chocolate Drizzle</label>
+              </div>
+              <hr>
+              <br><br><br>
+              <label><strong>Package Type:</strong></label>
+              <select id="package-type" name="package-type">
+                <option value="individual">Individual Packets</option>
+                <option value="box-of-6">Box of 6</option>
+                <option value="box-of-12">Box of 12</option>
+              </select>
+              <hr>
+              <br><br><br>
+              <label><strong>Delivery Date:</strong></label>
+              <input type="date" id="delivery-date" name="delivery-date">
+              <hr>
+              <br><br><br>
+              <label><strong>Quantity:</strong></label>
+              <br>
+              <input type="number" id="quantity" name="quantity" min="1" max="100">
+              <br>
+              <input type="submit" value="Place Order">
+            </form>     
+    </section>
+
+    <footer>
+        <p>Connect with us on social media: <a href="#" style="color: blanchedalmond;">Facebook</a> | <a href="#" style="color: blanchedalmond;">Twitter</a> | <a href="#" style="color: blanchedalmond;">LinkedIn</a></p>
+        <p>© 2024 MilkyB. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
