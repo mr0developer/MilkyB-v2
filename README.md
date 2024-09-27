@@ -21,5 +21,9 @@ Thank you for visiting the MilkyB Biscuits website repository! We hope you enjoy
 Star.
 ## Screenshots:
 ![Screenshot (46)](https://github.com/user-attachments/assets/393f838d-6cb6-4dc5-971e-24ffcdf322ed)
-
+![Screenshot (42)](https://github.com/user-attachments/assets/e234852f-f48c-4496-bd32-3acf115c951a)
+![Screenshot (45)](https://github.com/user-attachments/assets/923b9539-1fde-4e35-befb-06838767c65d)
+![Screenshot (43)](https://github.com/user-attachments/assets/75783290-2830-4cfb-bc06-d440b3b13b83)
+![Screenshot (44)](https://github.com/user-attachments/assets/73af7f94-af34-4b12-bebb-41b1873008e5)
+![Screenshot (46)](https://github.com/user-attachments/assets/b9cf74fa-968a-46f7-8130-055592260e84)
 
