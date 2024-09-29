@@ -128,3 +128,102 @@ button{
     display: block;
     margin: 0 auto;
 }
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    header nav a {
+        font-size: 1.1rem;
+    }
+    .home .title {
+        font-size: 4rem;
+    }
+    .about h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header nav a {
+        font-size: 1rem;
+    }
+    .home .title {
+        font-size: 3.5rem;
+    }
+    .about {
+        padding: 40px;
+    }
+    .about h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    header {
+        height: 80px;
+    }
+    header nav {
+        gap: 15px;
+    }
+    .home .title {
+        font-size: 3rem;
+    }
+    .about {
+        padding: 30px;
+    }
+    .about h1 {
+        font-size: 1.8rem;
+    }
+    .about p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    header nav a {
+        font-size: 0.9rem;
+    }
+    .home .title {
+        font-size: 2.5rem;
+    }
+    .about {
+        padding: 20px;
+    }
+    .about h1 {
+        font-size: 1.5rem;
+    }
+    .about p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+    header nav a {
+        font-size: 0.8rem;
+    }
+    .home .title {
+        font-size: 2rem;
+    }
+    .about {
+        padding: 15px;
+    }
+    .about h1 {
+        font-size: 1.2rem;
+    }
+    .about p {
+        font-size: 0.8rem;
+    }
+}
